@@ -20,7 +20,7 @@ int main()
   // Set PJ0, PJ1 as input
   GPIODIR_J = 0x0;
 
-  //Attach PJ0, PJ1 to pull-up resistors
+  // Attach PJ0, PJ1 to pull-up resistors
   GPIOPUR_J |= PJ0;
   GPIOPUR_J |= PJ1;
 
