@@ -3,10 +3,9 @@
 
 void delay() // cause a delay
 {
-      for (int i = 0; i < 900000; i++)
-      {
-      }
+      for (int i = 0; i < 900000; i++) {}
 }
+
 int main()
 {
       // Enable N, F port
