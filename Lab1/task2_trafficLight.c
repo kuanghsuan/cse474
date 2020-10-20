@@ -97,8 +97,8 @@ void tffFunc()
 {
   switch (TFF_State)
   {
-  case TFF_Begin:
-    TFF_State = TFF_S0;
+  case TFF_Begin:       // Transitions
+    TFF_State = TFF_S0; // Initial transition
     break;
   case TFF_S0:
     if (sys_switch())
@@ -162,7 +162,7 @@ void tffFunc()
     TFF_State = TFF_Begin;
     break;
   }
-  switch (TFF_State)
+  switch (TFF_State)    // State actions
   {
   case TFF_S0:
     Go_State();
