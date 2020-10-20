@@ -113,7 +113,6 @@ void tffFunc()
     else if (time == 500000)
     {
       TFF_State = TFF_S2;
-      time = 0;
     }
     else
     {
@@ -128,7 +127,6 @@ void tffFunc()
     else if (time == 250000)
     {
       TFF_State = TFF_S2;
-      time = 0;
     }
     else
     {
