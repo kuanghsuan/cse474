@@ -114,10 +114,7 @@ void tffFunc()
     {
       TFF_State = TFF_S2;
     }
-    else
-    {
-      time++;
-    }
+    else time++;
     break;
   case TFF_S1:
     if (sys_switch())
@@ -128,10 +125,7 @@ void tffFunc()
     {
       TFF_State = TFF_S2;
     }
-    else
-    {
-      time++;
-    }
+    else time++;
     break;
   case TFF_S2:
     if (sys_switch())
@@ -143,10 +137,7 @@ void tffFunc()
       TFF_State = TFF_S0;
       time = 0;
     }
-    else
-    {
-      time++;
-    }
+    else time++;
     break;
   case TFF_End:
     LED_off();
