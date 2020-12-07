@@ -7,6 +7,7 @@
 #define Port_J 0x100
 #define Port_C 0x04
 #define Port_L 0x400
+#define Port_E 0x10
 
 // Port F Address
 #define GPIODIR_F (*((volatile uint32_t *)0x4005D400))

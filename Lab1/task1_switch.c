@@ -10,8 +10,8 @@ int main()
   GPIODEN_N |= PN0;
   GPIODEN_N |= PN1;
   // Enable PJ0, PJ1
-  GPIODEN_N |= PJ0;
-  GPIODEN_N |= PJ1;
+  GPIODEN_J |= PJ0;
+  GPIODEN_J |= PJ1;
 
   // Set PN0, PN1 as output
   GPIODIR_N |= PN0;
